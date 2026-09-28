@@ -1,0 +1,1503 @@
+<!doctype html>
+<html class="plt-desktop md hydrated" mode="md" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <title></title>
+    <style>
+      /*! CSS Used from: Embedded */
+      body {
+        transition: opacity ease-in 0.2s;
+      }
+      /*! CSS Used from: Embedded */
+      .hydrated {
+        visibility: inherit;
+      }
+      /*! CSS Used from: https://minigame.royaladmin.live/static/css/main.020786ef.css */
+      html.md {
+        --ion-default-font: "Roboto", "Helvetica Neue", sans-serif;
+      }
+      html {
+        --ion-font-family: var(--ion-default-font);
+      }
+      body {
+        background: var(--ion-background-color);
+      }
+      img {
+        max-width: 100%;
+      }
+      a,
+      a div,
+      button,
+      button div,
+      button span {
+        touch-action: manipulation;
+      }
+      button {
+        -webkit-font-feature-settings: inherit;
+        font-feature-settings: inherit;
+        -webkit-appearance: button;
+        border: 0;
+        font-family: inherit;
+        font-style: inherit;
+        font-variant: inherit;
+        line-height: 1;
+        text-transform: none;
+      }
+      button {
+        cursor: pointer;
+      }
+      * {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+      }
+      html {
+        -webkit-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+        height: 100%;
+        width: 100%;
+      }
+      body {
+        text-rendering: optimizeLegibility;
+        -webkit-user-drag: none;
+        -ms-content-zooming: none;
+        word-wrap: break-word;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        text-size-adjust: none;
+        max-height: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        overscroll-behavior-y: none;
+        padding: 0;
+        position: fixed;
+        touch-action: manipulation;
+      }
+      html {
+        font-family: var(--ion-font-family);
+      }
+      a {
+        color: #3880ff;
+        color: var(--ion-color-primary, #3880ff);
+      }
+      :root {
+        --black-color: #000;
+        --text-common-dark: #0b2863;
+        --mustard-color: #cf8d2e;
+        --back-color: #68bae8;
+        --lay-color: #e86868;
+        --back-background: #73cdff;
+        --lay-background: #ff8383;
+        --border-color: #a4a4a4;
+        --accordian-border: #d1d1d1;
+      }
+      .md body {
+        --lobby-search-icon: #000;
+        --sidebar-search-bg: #fff;
+        --sidebar-search-icon: rgba(0, 0, 0, 0.6);
+        --sidebar-placeholder: #000;
+        --lobby-search-bg: #fff;
+        --lobby-search-icon: rgba(0, 0, 0, 0.5);
+        --lobby-search-placceholder: rgba(0, 0, 0, 0.5);
+        --background-theme: #d9d9d9;
+        --text-color: var(--black-color);
+        --ion-background: #fff;
+        --ion-color-success: #06c23b;
+        --header-bg: var(--white-color);
+        --white-color: #fff;
+        --ion-text-color: #000;
+        --sub-header-bg: #fff;
+        --video-top-bg: #fff;
+        --rule-icon: #000;
+        --rules-bg: rgba(0, 0, 0, 0.1);
+        --border-color: rgba(15, 35, 39, 0.2);
+        --odd-btn-animation-color: #ffa724;
+        --video-top-border: #000;
+        --gradient-bg: #0b2863;
+        --border-color: #ccc;
+        --pannel-bg: #cbd0dd;
+        --inner-card-bg: #f1f1f1;
+        --primary-color: var(--gradient-bg);
+        --table-head: linear-gradient(90.09deg, #0c2563 0.79%, #ffa724);
+        --ion-color-link: #000;
+        --casino-card: #fff;
+        --card-odds-bg: linear-gradient(90deg, #26167b, #ffa724);
+        --odds-card-color: #000;
+        --video-border-color: #42464c;
+        --game-header-bg: #d32727;
+        --success-button-bg: #00c314;
+        --place-button-bg: #cf8d2e;
+        --cancel-button-bg: #ff3143;
+        --timer-popup-bg: #cf8d2e;
+        --time-inner-bg: #fff;
+        --runners-bg: var(--white-color);
+        --odds-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.11);
+        --accordian-bg: var(--white-color);
+        --runner-name: #2f2f2f;
+        --left-pane-bg: var(--white-color);
+        --game-cards-bg: #efefef;
+        --users: #2f2f2f;
+        --leftpane-game-title: #2f2f2f;
+        --openbets-container-bg: #222;
+        --available-credit-bg: var(--white-color);
+        --bets-bg: #4f4f4f;
+        --openbets-text-color: var(--black-color);
+        --video-footer-bg: var(--white-color);
+        --round-id-color: #2e2e2e;
+        --video-button-bg: var(--white-color);
+        --button-border: var(--mustard-color);
+        --menu-icon: #191919;
+        --balance-theme-bg: var(--white-color);
+        --balance-color: #747474;
+        --theme-handle-bg: #2b2b2b;
+        --worli-tabs-bg: #fff;
+        --worli-tabs-bg2: #fff;
+        --worli-tabs-font: grey;
+        --video-btn: #cf8d2e;
+        --threecj-odds-bg: var(--white-color);
+        --threecj-lay-bg: var(--white-color);
+        --lobby-bg: #dfdfdf;
+        --lobby-text-color: var(--white-color);
+        --lobby-subtitle-gradient: #dfdfdf;
+        --lobby-back: #2e2e2e;
+        --rule-text-color: #2e2e2e;
+        --rules-ctn-border: #dfdfdf;
+        --mob-openbets-bg: var(--white-color);
+        --mob-openbets-text: #2b2b2b;
+        --bets-count-ctn-bg: grey;
+        --risk-profit-color: #54bd22;
+        --toggle-color: #d1d1d1;
+        --slider-color: var(--white-color);
+        --lt-text-color: var(--black-color);
+        --lt-bg-color: var(--white-color);
+        --chips-layer: #ececec;
+        --payouts: var(--white-color);
+        --balance-titles: #000;
+        --lobby-title: #2e2e2e;
+        --picks-color: #2e2e2e;
+        --lobby-title-section: #fff;
+        --lobby-back-btn: #fff;
+        --search-page-bg: #fff;
+        --sidebar-tab-bg: #fff;
+        --sidebar-tab-border: var(--mustard-color);
+        --chip-bg: #fff;
+        --mo-bg: linear-gradient(180deg, #cbf1e3 -2.09%, #f1fbf1 97.91%);
+        --chip-title: #2e2e2e;
+        --chip-title-trio: #2e2e2e;
+        --suit-bg: linear-gradient(180deg, #c7e7c4, #7a8f7d);
+        --chip-border: rgba(235, 156, 38, 0.35);
+        --odd-even-bg: linear-gradient(180deg, #99bb8d, #e4ece1);
+        --odd-runner-bg: linear-gradient(180deg, #fff, #dadada);
+        --mo-bg-trio: linear-gradient(180deg, #cbf1e3, #f1fbf1);
+        --mo-border-trio: rgba(207, 141, 46, 0.35);
+        --tcj-bg: linear-gradient(180deg, #e5fcdc, #9eb895);
+        --tcj-font-color: #0c5325;
+        --trio-divider: rgba(207, 141, 46, 0.35);
+        --trio-color-gb: linear-gradient(180deg, #99bb8d, #e4ece1);
+        --runner-price-bg: linear-gradient(180deg, #fff, #dadada);
+        --runner-price-font: #2e2e2e;
+        --winner-highlight-bg: #11892c;
+        --cw-o-l-bg: linear-gradient(180deg, #cbf1e3, #f1fbf1);
+        --m-odds-btn-bg: linear-gradient(180deg, #20db49 0.01%, #23ad42);
+        --e-o-odds-bg: linear-gradient(180deg, #18a15b, #e4ece1);
+        --even-odd-bg: linear-gradient(180deg, #fff, #dadada);
+        --ds-ctn-bg: linear-gradient(180deg, #bce8d2, #349232);
+        --bottom-layer1: linear-gradient(180deg, #efefef, #c6c6c6);
+        --bottom-layer2: #efefef;
+        --id: #2e2e2e;
+        --layout-bg: #fff;
+        --layout-border: rgba(207, 141, 46, 0.35);
+        --match-odds-bg: linear-gradient(180deg, #cbf1e3, #f1fbf1);
+        --runner-bg: linear-gradient(180deg, #20db49 0.01%, #23ad42);
+        --tie-bg: linear-gradient(180deg, #fff 0.01%, #dadada);
+        --tie-font: #0c5325;
+        --s-o-layout-bg: linear-gradient(180deg, #bce8d2, #349232);
+        --s-o-runner-bg: linear-gradient(180deg, #fff 0.01%, #dadada);
+        --match-odds-bg1: linear-gradient(180deg, #eab8be, #b1c5d6);
+        --tie-bg1:
+          linear-gradient(180deg, #71d178, #105915 79.2%),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --tie-bg1mini:
+          linear-gradient(180deg, #0d8014, #022204 79.82%),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --mo-runner1-bg:
+          linear-gradient(180deg, #e38484, #821515),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --mo-runner1-bgmini:
+          linear-gradient(180deg, #a11425, #400b11),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --mo-runner2-bgmini:
+          linear-gradient(180deg, #1064a9, #032440),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --mo-runner2-bg:
+          linear-gradient(180deg, #84b8e3, #155082),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --odd-even-outer-box-one-bg: #eab8be;
+        --odd-even-outer-box-two-bg: #b8ccea;
+        --odd-even-outer-box-three-bg: #b8eac9;
+        --odd-even-inner-box-one-bg: linear-gradient(180deg, #fff, #dadada);
+        --odd-even-inner-box-two-bg: linear-gradient(180deg, #fff, #dadada);
+        --odd-even-inner-box-three-bg: linear-gradient(180deg, #fff, #dadada);
+        --suit-section-one-bg: linear-gradient(180deg, #eadcde, #d6b9bc 80.73%);
+        --suit-section-two-bg: linear-gradient(180deg, #e2edf5, #adc0d1);
+        --suit-section-three-bg: linear-gradient(180deg, #e2f5e7, #add1b7);
+        --unrealted-outer-o-e-bg: linear-gradient(180deg, #eab8be, #b1c5d6);
+        --o-e-bg: linear-gradient(180deg, #fff, #dadada);
+        --odd-even-box-bg: linear-gradient(180deg, #eab8be, #b1c5d6);
+        --unrelated-runners: linear-gradient(180deg, #fff, #dadada);
+        --pair-runner: linear-gradient(180deg, #f5f5f5, #dadada);
+        --pair-runner-name: #2e2e2e;
+        --p1:
+          linear-gradient(180deg, #e38484, #821515),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p2:
+          linear-gradient(180deg, #71d178, #105915 79.2%),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p3:
+          linear-gradient(180deg, #84b8e3, #155082),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p4:
+          linear-gradient(180deg, #84e3d2, #156e82),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p5:
+          linear-gradient(180deg, #e3a084, #823c15),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p6:
+          linear-gradient(180deg, #e384d4, #821556),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p7:
+          linear-gradient(180deg, #84e3aa, #158220),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p8:
+          linear-gradient(180deg, #e1e384, #7f8215),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p9:
+          linear-gradient(180deg, #ba7a2f, #7d4c12),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p10:
+          linear-gradient(180deg, #9e2fba, #62127d),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+      }
+      .md body.dark {
+        --lobby-search-icon: #fff;
+        --sidebar-search-bg: #000;
+        --sidebar-search-icon: hsla(0, 0%, 100%, 0.6);
+        --sidebar-placeholder: hsla(0, 0%, 100%, 0.5);
+        --lobby-search-bg: #000;
+        --lobby-search-icon: hsla(0, 0%, 100%, 0.5);
+        --lobby-search-placceholder: hsla(0, 0%, 100%, 0.5);
+        --background-theme: var(--black-color);
+        --text-color: var(--white-color);
+        --ion-color-link: #fff;
+        --ion-background: var(--black-color);
+        --header-bg: #2b2b2b;
+        --white-color: #fff;
+        --video-top-bg: #222;
+        --rules-bg: #000;
+        --rule-icon: #b97f2b;
+        --video-top-border: #b97f2b;
+        --ion-text-color: #000;
+        --sub-header-bg: #000;
+        --border-color: rgba(15, 35, 39, 0.2);
+        --odd-btn-animation-color: #ffa724;
+        --gradient-bg: #8774ed;
+        --border-color: var(--sub-header-bg);
+        --pannel-bg: #cbd0dd;
+        --inner-card-bg: #f1f1f1;
+        --primary-color: var(--white-color);
+        --table-head: linear-gradient(90.09deg, #26167b 0.79%, #503eb2);
+        --casino-card: #2f2e3d;
+        --card-odds-bg: linear-gradient(90deg, #26167b, #503eb2);
+        --odds-card-color: #fff;
+        --accordian-bg: #222;
+        --runners-bg: linear-gradient(180deg, #464646, #0f0f0f);
+        --runner-name: var(--white-color);
+        --left-pane-bg: #222;
+        --game-cards-bg: linear-gradient(126.37deg, #373737 4.62%, #3c3c3c);
+        --users: var(--white-color);
+        --leftpane-game-title: var(--white-color);
+        --openbets-container-bg: var(--white-color);
+        --available-credit-bg: #1c1c1c;
+        --bets-bg: var(--white-color);
+        --openbets-text-color: var(--black-color);
+        --video-footer-bg: linear-gradient(180deg, #464646, #0f0f0f);
+        --round-id-color: var(--white-color);
+        --video-button-bg: #4f4f4f;
+        --button-border: linear-gradient(180deg, #d9d9d9, hsla(0, 0%, 85%, 0));
+        --menu-icon: var(--white-color);
+        --balance-theme-bg: #191919;
+        --balance-color: var(--white-color);
+        --theme-handle-bg: #d1d1d1;
+        --worli-tabs-bg: #464646;
+        --worli-tabs-bg2: #0f0f0f;
+        --worli-tabs-font: #fff;
+        --video-btn: #fff;
+        --threecj-odds-bg: linear-gradient(
+          89.94deg,
+          #76ccff 0.05%,
+          #44718b 27.29%,
+          #0f0f0f 100.54%
+        );
+        --threecj-lay-bg: linear-gradient(
+          89.88deg,
+          #fd7f83 0.82%,
+          #794143 22.35%,
+          #0f0f0f 102.94%
+        );
+        --lobby-bg: var(--black-color);
+        --lobby-text-color: var(--black-color);
+        --lobby-subtitle-gradient: #000;
+        --lobby-back: #fff;
+        --rule-text-color: var(--white-color);
+        --rules-ctn-border: #525252;
+        --mob-openbets-bg: var(--black-color);
+        --mob-openbets-text: var(--white-color);
+        --bets-count-ctn-bg: linear-gradient(180deg, #464646, #0f0f0f);
+        --risk-profit-color: #aaff83;
+        --toggle-color: #515151;
+        --slider-color: #000;
+        --lt-text-color: var(--white-color);
+        --lt-bg-color: var(--black-color);
+        --chips-layer: var(--black-color);
+        --payouts: linear-gradient(#0f0f0f, #191919);
+        --balance-titles: #ededed;
+        --lobby-title: #fff;
+        --picks-color: #fff;
+        --lobby-title-section: #2b2b2b;
+        --lobby-back-btn: #000;
+        --search-page-bg: #222;
+        --sidebar-tab-bg: #000;
+        --sidebar-tab-border: #000;
+        --chip-bg: #000;
+        --mo-bg: linear-gradient(180deg, #0a523c, rgba(6, 133, 98, 0));
+        --chip-title: #fff;
+        --suit-bg: linear-gradient(180deg, #0a523c, rgba(6, 133, 98, 0));
+        --chip-border: var(--white-color);
+        --odd-even-bg: linear-gradient(180deg, #0a523c, rgba(6, 133, 98, 0));
+        --odd-runner-bg: linear-gradient(180deg, #28883d, #0a390f);
+        --chip-title-trio: #fff;
+        --mo-bg-trio: linear-gradient(180deg, #0a523c, rgba(6, 133, 98, 0));
+        --mo-border-trio: hsla(0, 0%, 100%, 0.5);
+        --tcj-bg: linear-gradient(180deg, #0c5934 0.01%, #0e1d03);
+        --tcj-font-color: #fff;
+        --trio-divider: hsla(0, 0%, 100%, 0.35);
+        --trio-color-gb: linear-gradient(180deg, #0a523c, rgba(6, 133, 98, 0));
+        --runner-price-bg: linear-gradient(180deg, #28883d, #0a390f);
+        --runner-price-font: #fff;
+        --winner-highlight-bg: #db9835;
+        --cw-o-l-bg: linear-gradient(180deg, #0a523c, rgba(6, 133, 98, 0));
+        --m-odds-btn-bg: linear-gradient(180deg, #18ac65 0.01%, #203f07);
+        --e-o-odds-bg: linear-gradient(180deg, #0a523c, rgba(6, 133, 98, 0));
+        --even-odd-bg: linear-gradient(180deg, #28883d, #0a390f);
+        --ds-ctn-bg: linear-gradient(180deg, #0a523c, rgba(6, 133, 98, 0));
+        --bottom-layer1: linear-gradient(180deg, #060606, #3b3b3b);
+        --bottom-layer2: linear-gradient(180deg, #060606, #3b3b3b);
+        --id: var(--white-color);
+        --layout-bg: #060606;
+        --layout-border: rgba(207, 141, 46, 0.35);
+        --match-odds-bg: linear-gradient(180deg, #5a3b0d, #130f0f);
+        --runner-bg:
+          linear-gradient(180deg, #db9835 0.01%, #442c11),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --tie-bg:
+          linear-gradient(180deg, #4d4233, #110b02 100%, #000 0),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --tie-font: var(--white-color);
+        --s-o-layout-bg: linear-gradient(180deg, #2d2823, #000);
+        --s-o-runner-bg: linear-gradient(180deg, #69440c, #362108);
+        --match-odds-bg1: linear-gradient(180deg, #34050b, #02111e);
+        --tie-bg1:
+          linear-gradient(180deg, #0d8014, #022204 79.82%),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --mo-runner1-bg:
+          linear-gradient(180deg, #a11425, #400b11),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --mo-runner2-bg:
+          linear-gradient(180deg, #1064a9, #032440),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --odd-even-outer-box-one-bg: linear-gradient(180deg, #34050b, #02111e);
+        --odd-even-outer-box-two-bg: linear-gradient(180deg, #34050b, #02111e);
+        --odd-even-outer-box-three-bg: linear-gradient(
+          180deg,
+          #34050b,
+          #02111e
+        );
+        --odd-even-inner-box-one-bg:
+          linear-gradient(180deg, #6a1620 0.01%, #050505),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --odd-even-inner-box-two-bg:
+          linear-gradient(180deg, #0e3656 0.01%, #050505),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --odd-even-inner-box-three-bg:
+          linear-gradient(180deg, #0e561a 0.01%, #050505),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --suit-section-one-bg: linear-gradient(180deg, #540d16, #1f0306 80.73%);
+        --suit-section-two-bg: linear-gradient(180deg, #0b3252, #020b12);
+        --suit-section-three-bg: linear-gradient(
+          180deg,
+          #13540d,
+          #071f03 80.73%
+        );
+        --unrealted-outer-o-e-bg: linear-gradient(180deg, #34050b, #02111e);
+        --o-e-bg:
+          linear-gradient(180deg, grey 0.01%, #313433),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --odd-even-box-bg: linear-gradient(180deg, #34050b, #02111e);
+        --unrelated-runners:
+          linear-gradient(180deg, grey 0.01%, #313433),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p1:
+          linear-gradient(180deg, #a11425, #400b11),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p2:
+          linear-gradient(180deg, #0d8014, #022204 79.82%),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p3:
+          linear-gradient(180deg, #1064a9, #032440),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p4:
+          linear-gradient(180deg, #14a190, #0b4039),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p5:
+          linear-gradient(180deg, #803d0d, #221302),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p6:
+          linear-gradient(180deg, #a91063, #400328),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p7:
+          linear-gradient(180deg, #10a93b, #034009),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p8:
+          linear-gradient(180deg, #a99a10, #374003),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p9:
+          linear-gradient(180deg, #a96310, #400e03),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --p10:
+          linear-gradient(180deg, #6610a9, #340340),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --pair-runner:
+          linear-gradient(180deg, #69440c, #362108),
+          linear-gradient(180deg, #fff 0%, hsla(0, 0%, 100%, 0));
+        --pair-runner-name: #fff;
+      }
+      .md body {
+        --ion-color-step-50: #1e1e1e;
+        --ion-color-step-100: #2a2a2a;
+        --ion-color-step-150: #363636;
+        --ion-color-step-200: #414141;
+        --ion-color-step-250: #4d4d4d;
+        --ion-color-step-300: #595959;
+        --ion-color-step-350: #656565;
+        --ion-color-step-400: #717171;
+        --ion-color-step-450: #7d7d7d;
+        --ion-color-step-500: #898989;
+        --ion-color-step-550: #949494;
+        --ion-color-step-600: #a0a0a0;
+        --ion-color-step-650: #acacac;
+        --ion-color-step-700: #b8b8b8;
+        --ion-color-step-750: #c4c4c4;
+        --ion-color-step-800: #d0d0d0;
+        --ion-color-step-850: #dbdbdb;
+        --ion-color-step-900: #e7e7e7;
+        --ion-color-step-950: #f3f3f3;
+      }
+      .router-ctn-dark {
+        background-color: #000;
+      }
+      .router-ctn-dark {
+        background-size: 50%;
+        min-height: 100vh;
+        width: 100%;
+      }
+      @media (max-width: 600px) {
+        .router-ctn-dark {
+          background-size: 90%;
+          min-height: 100vh;
+        }
+      }
+      @media (max-width: 600px) {
+        .router-ctn-dark {
+          background-color: #000;
+          min-height: 100vh;
+          width: 100%;
+        }
+      }
+      @media (max-width: 720px) {
+        .router-ctn-dark {
+          background-color: var(--ion-text-color);
+          background-size: 90%;
+        }
+        .router-ctn-dark {
+          background-color: #000;
+          min-height: 100vh;
+          width: 100%;
+        }
+      }
+      html {
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+      }
+      body {
+        height: 100%;
+        overflow: auto;
+        position: absolute;
+        touch-action: pan-x pan-y;
+        width: 100%;
+      }
+      :root {
+        --rs-gray-50: #f7f7fa;
+        --rs-gray-100: #f2f2f5;
+        --rs-gray-200: #e5e5ea;
+        --rs-gray-300: #d9d9d9;
+        --rs-gray-400: #c5c6c7;
+        --rs-gray-500: #a6a6a6;
+        --rs-gray-600: #8e8e93;
+        --rs-gray-700: #7a7a7a;
+        --rs-gray-800: #575757;
+        --rs-gray-900: #272c36;
+        --rs-primary-50: #f2faff;
+        --rs-primary-100: #cce9ff;
+        --rs-primary-200: #a6d7ff;
+        --rs-primary-300: #80c4ff;
+        --rs-primary-400: #59afff;
+        --rs-primary-500: #3498ff;
+        --rs-primary-600: #2589f5;
+        --rs-primary-700: #1675e0;
+        --rs-primary-800: #0a5dc2;
+        --rs-primary-900: #004299;
+        --rs-red-50: #fff2f2;
+        --rs-red-100: #fccfcf;
+        --rs-red-200: #faa9a7;
+        --rs-red-300: #fa8682;
+        --rs-red-400: #f7635c;
+        --rs-red-500: #f44336;
+        --rs-red-600: #eb3626;
+        --rs-red-700: #d62915;
+        --rs-red-800: #b81c07;
+        --rs-red-900: #8f1300;
+        --rs-orange-50: #fff8f2;
+        --rs-orange-100: #ffdfc2;
+        --rs-orange-200: #fcc690;
+        --rs-orange-300: #fcb160;
+        --rs-orange-400: #fa9b2f;
+        --rs-orange-500: #fa8900;
+        --rs-orange-600: #f08800;
+        --rs-orange-700: #db8000;
+        --rs-orange-800: #bd7100;
+        --rs-orange-900: #945b00;
+        --rs-yellow-50: #fffaf2;
+        --rs-yellow-100: #ffe9c2;
+        --rs-yellow-200: #ffd991;
+        --rs-yellow-300: #ffca61;
+        --rs-yellow-400: #ffbe30;
+        --rs-yellow-500: #ffb300;
+        --rs-yellow-600: #f5af00;
+        --rs-yellow-700: #e0a500;
+        --rs-yellow-800: #c29100;
+        --rs-yellow-900: #997500;
+        --rs-green-50: #eeffed;
+        --rs-green-100: #c8f0c7;
+        --rs-green-200: #a5e0a4;
+        --rs-green-300: #82cf82;
+        --rs-green-400: #65bf67;
+        --rs-green-500: #4caf50;
+        --rs-green-600: #37ab3c;
+        --rs-green-700: #22a12a;
+        --rs-green-800: #0f9119;
+        --rs-green-900: #007d0c;
+        --rs-cyan-50: #f2ffff;
+        --rs-cyan-100: #bcf4f7;
+        --rs-cyan-200: #87e6ed;
+        --rs-cyan-300: #57dae6;
+        --rs-cyan-400: #2acadb;
+        --rs-cyan-500: #00bcd4;
+        --rs-cyan-600: #00b1cc;
+        --rs-cyan-700: #00a0bd;
+        --rs-cyan-800: #008aa6;
+        --rs-cyan-900: #006e87;
+        --rs-blue-50: #f0f9ff;
+        --rs-blue-100: #c5e7fc;
+        --rs-blue-200: #9bd4fa;
+        --rs-blue-300: #72c0f7;
+        --rs-blue-400: #49abf5;
+        --rs-blue-500: #2196f3;
+        --rs-blue-600: #1787e8;
+        --rs-blue-700: #0d73d4;
+        --rs-blue-800: #045cb5;
+        --rs-blue-900: #00448c;
+        --rs-violet-50: #f6f2ff;
+        --rs-violet-100: #d5c9f0;
+        --rs-violet-200: #b6a1e3;
+        --rs-violet-300: #987bd4;
+        --rs-violet-400: #805ac7;
+        --rs-violet-500: #673ab7;
+        --rs-violet-600: #5f2bb3;
+        --rs-violet-700: #531ba8;
+        --rs-violet-800: #470c99;
+        --rs-violet-900: #390085;
+        --rs-state-success: #4caf50;
+        --rs-state-info: #2196f3;
+        --rs-state-warning: #ffb300;
+        --rs-state-error: #f44336;
+        --rs-body: #fff;
+        --rs-bg-success: #edfae1;
+        --rs-bg-info: #e9f5fe;
+        --rs-bg-warning: #fff9e6;
+        --rs-bg-error: #fde9ef;
+        --rs-text-link: #1675e0;
+        --rs-text-link-hover: #0a5dc2;
+        --rs-text-link-active: #004299;
+        --rs-text-primary: #575757;
+        --rs-text-secondary: #8e8e93;
+        --rs-text-tertiary: #a6a6a6;
+        --rs-text-heading: #272c36;
+        --rs-text-inverse: #f7f7fa;
+        --rs-text-heading-inverse: #fff;
+        --rs-text-active: #1675e0;
+        --rs-text-disabled: #c5c6c7;
+        --rs-text-error: #f44336;
+        --rs-border-primary: #e5e5ea;
+        --rs-border-secondary: #f2f2f5;
+        --rs-bg-card: #fff;
+        --rs-bg-overlay: #fff;
+        --rs-bg-well: #f7f7fa;
+        --rs-bg-active: #3498ff;
+        --rs-bg-backdrop: rgba(39, 44, 54, 0.3);
+        --rs-state-hover-bg: #f2faff;
+        --rs-color-focus-ring: rgba(52, 152, 255, 0.25);
+        --rs-state-focus-shadow: 0 0 0 3px rgba(52, 152, 255, 0.25);
+        --rs-state-focus-outline: 3px solid rgba(52, 152, 255, 0.25);
+        --rs-shadow-overlay:
+          0 4px 4px rgba(0, 0, 0, 0.12), 0 0 10px rgba(0, 0, 0, 0.06);
+        --rs-btn-default-bg: #f7f7fa;
+        --rs-btn-default-text: #575757;
+        --rs-btn-default-hover-bg: #e5e5ea;
+        --rs-btn-default-active-bg: #d9d9d9;
+        --rs-btn-default-active-text: #272c36;
+        --rs-btn-default-disabled-bg: #f7f7fa;
+        --rs-btn-default-disabled-text: #c5c6c7;
+        --rs-btn-primary-bg: #3498ff;
+        --rs-btn-primary-text: #fff;
+        --rs-btn-primary-hover-bg: #2589f5;
+        --rs-btn-primary-active-bg: #1675e0;
+        --rs-btn-subtle-text: #8e8e93;
+        --rs-btn-subtle-hover-bg: #f7f7fa;
+        --rs-btn-subtle-hover-text: #575757;
+        --rs-btn-subtle-active-bg: #e5e5ea;
+        --rs-btn-subtle-active-text: #272c36;
+        --rs-btn-subtle-disabled-text: #c5c6c7;
+        --rs-btn-ghost-border: #1675e0;
+        --rs-btn-ghost-text: #1675e0;
+        --rs-btn-ghost-hover-border: #0a5dc2;
+        --rs-btn-ghost-hover-text: #0a5dc2;
+        --rs-btn-ghost-active-border: #004299;
+        --rs-btn-ghost-active-text: #004299;
+        --rs-btn-link-text: #1675e0;
+        --rs-btn-link-hover-text: #0a5dc2;
+        --rs-btn-link-active-text: #004299;
+        --rs-iconbtn-addon: #f2f2f5;
+        --rs-iconbtn-activated-addon: #d9d9d9;
+        --rs-iconbtn-pressed-addon: #c5c6c7;
+        --rs-iconbtn-primary-addon: #2589f5;
+        --rs-iconbtn-primary-activated-addon: #1675e0;
+        --rs-iconbtn-primary-pressed-addon: #0a5dc2;
+        --rs-divider-border: #e5e5ea;
+        --rs-loader-ring: rgba(247, 247, 250, 0.8);
+        --rs-loader-rotor: #a6a6a6;
+        --rs-loader-backdrop: hsla(0, 0%, 100%, 0.9);
+        --rs-loader-ring-inverse: rgba(247, 247, 250, 0.3);
+        --rs-loader-rotor-inverse: #fff;
+        --rs-loader-backdrop-inverse: rgba(39, 44, 54, 0.83);
+        --rs-message-success-header: var(--rs-text-heading);
+        --rs-message-success-text: var(--rs-text-primary);
+        --rs-message-success-icon: #4caf50;
+        --rs-message-success-bg: #eeffed;
+        --rs-message-info-header: var(--rs-text-heading);
+        --rs-message-info-text: var(--rs-text-primary);
+        --rs-message-info-icon: #2196f3;
+        --rs-message-info-bg: #f0f9ff;
+        --rs-message-warning-header: var(--rs-text-heading);
+        --rs-message-warning-text: var(--rs-text-primary);
+        --rs-message-warning-icon: #ffb300;
+        --rs-message-warning-bg: #fffaf2;
+        --rs-message-error-header: var(--rs-text-heading);
+        --rs-message-error-text: var(--rs-text-primary);
+        --rs-message-error-icon: #f44336;
+        --rs-message-error-bg: #fff2f2;
+        --rs-tooltip-bg: #272c36;
+        --rs-tooltip-text: #fff;
+        --rs-progress-bg: #e5e5ea;
+        --rs-progress-bar: #3498ff;
+        --rs-progress-bar-success: #4caf50;
+        --rs-progress-bar-fail: #f44336;
+        --rs-placeholder: #f2f2f5;
+        --rs-placeholder-active: #e5e5ea;
+        --rs-dropdown-divider: #e5e5ea;
+        --rs-dropdown-item-bg-hover: rgba(204, 233, 255, 0.5);
+        --rs-dropdown-item-bg-active: #f2faff;
+        --rs-dropdown-item-text-active: #1675e0;
+        --rs-dropdown-header-text: #a6a6a6;
+        --rs-dropdown-shadow:
+          0 0 10px rgba(0, 0, 0, 0.06), 0 4px 4px rgba(0, 0, 0, 0.12);
+        --rs-menuitem-active-bg: rgba(204, 233, 255, 0.5);
+        --rs-menuitem-active-text: #1675e0;
+        --rs-steps-border: #8e8e93;
+        --rs-steps-state-finish: #3498ff;
+        --rs-steps-border-state-finish: #3498ff;
+        --rs-steps-state-wait: #8e8e93;
+        --rs-steps-state-process: #3498ff;
+        --rs-steps-state-error: #f44336;
+        --rs-steps-border-state-error: #f44336;
+        --rs-steps-icon-state-process: #3498ff;
+        --rs-steps-icon-state-error: #f44336;
+        --rs-navs-text: #8e8e93;
+        --rs-navs-text-hover: #575757;
+        --rs-navs-bg-hover: #e5e5ea;
+        --rs-navs-text-active: #272c36;
+        --rs-navs-bg-active: #e5e5ea;
+        --rs-navs-tab-border: #d9d9d9;
+        --rs-navs-subtle-border: #f7f7fa;
+        --rs-navs-selected: #1675e0;
+        --rs-navbar-default-bg: #f7f7fa;
+        --rs-navbar-default-text: #575757;
+        --rs-navbar-default-selected-text: #1675e0;
+        --rs-navbar-default-hover-bg: #e5e5ea;
+        --rs-navbar-default-hover-text: #575757;
+        --rs-navbar-inverse-bg: #3498ff;
+        --rs-navbar-inverse-text: #fff;
+        --rs-navbar-inverse-selected-bg: #1675e0;
+        --rs-navbar-inverse-hover-bg: #2589f5;
+        --rs-navbar-inverse-hover-text: #fff;
+        --rs-navbar-subtle-bg: #fff;
+        --rs-navbar-subtle-text: #8e8e93;
+        --rs-navbar-subtle-selected-text: #1675e0;
+        --rs-navbar-subtle-hover-bg: #f7f7fa;
+        --rs-navbar-subtle-hover-text: #575757;
+        --rs-sidenav-default-bg: #f7f7fa;
+        --rs-sidenav-default-text: #575757;
+        --rs-sidenav-default-selected-text: #1675e0;
+        --rs-sidenav-default-hover-bg: #e5e5ea;
+        --rs-sidenav-default-hover-text: #575757;
+        --rs-sidenav-default-footer-border: #e5e5ea;
+        --rs-sidenav-inverse-bg: #3498ff;
+        --rs-sidenav-inverse-text: #fff;
+        --rs-sidenav-inverse-selected-bg: #1675e0;
+        --rs-sidenav-inverse-hover-bg: #2589f5;
+        --rs-sidenav-inverse-footer-border: #2589f5;
+        --rs-sidenav-subtle-bg: #fff;
+        --rs-sidenav-subtle-text: #8e8e93;
+        --rs-sidenav-subtle-selected-text: #1675e0;
+        --rs-sidenav-subtle-hover-bg: #f7f7fa;
+        --rs-sidenav-subtle-hover-text: #575757;
+        --rs-sidenav-subtle-footer-border: #e5e5ea;
+        --rs-input-bg: #fff;
+        --rs-input-focus-border: #3498ff;
+        --rs-input-disabled-bg: #f7f7fa;
+        --rs-listbox-option-hover-bg: rgba(204, 233, 255, 0.5);
+        --rs-listbox-option-hover-text: #1675e0;
+        --rs-listbox-option-selected-text: #1675e0;
+        --rs-listbox-option-selected-bg: #f2faff;
+        --rs-listbox-option-disabled-text: #c5c6c7;
+        --rs-listbox-option-disabled-selected-text: #a6d7ff;
+        --rs-checkbox-icon: #fff;
+        --rs-checkbox-border: #d9d9d9;
+        --rs-checkbox-checked-bg: #3498ff;
+        --rs-checkbox-disabled-bg: #f7f7fa;
+        --rs-radio-marker: #fff;
+        --rs-radio-border: #d9d9d9;
+        --rs-radio-checked-bg: #3498ff;
+        --rs-radio-disabled-bg: #f7f7fa;
+        --rs-rate-symbol: #8e8e93;
+        --rs-rate-symbol-checked: #ffb300;
+        --rs-toggle-bg: #d9d9d9;
+        --rs-toggle-thumb: #fff;
+        --rs-toggle-loader-ring: rgba(247, 247, 250, 0.3);
+        --rs-toggle-loader-rotor: #fff;
+        --rs-toggle-hover-bg: #c5c6c7;
+        --rs-toggle-disabled-bg: #f7f7fa;
+        --rs-toggle-disabled-thumb: #fff;
+        --rs-toggle-checked-bg: #3498ff;
+        --rs-toggle-checked-thumb: #fff;
+        --rs-toggle-checked-hover-bg: #2589f5;
+        --rs-toggle-checked-disabled-bg: #cce9ff;
+        --rs-toggle-checked-disabled-thumb: #fff;
+        --rs-slider-bar: #f2f2f5;
+        --rs-slider-hover-bar: #e5e5ea;
+        --rs-slider-thumb-border: #3498ff;
+        --rs-slider-thumb-bg: #fff;
+        --rs-slider-thumb-hover-shadow: 0 0 0 8px rgba(52, 152, 255, 0.25);
+        --rs-slider-progress: #3498ff;
+        --rs-uploader-item-bg: #d9d9d9;
+        --rs-uploader-item-hover-bg: #f7f7fa;
+        --rs-uploader-overlay-bg: hsla(0, 0%, 100%, 0.8);
+        --rs-uploader-dnd-bg: #fff;
+        --rs-uploader-dnd-border: #e5e5ea;
+        --rs-uploader-dnd-hover-border: #3498ff;
+        --rs-avatar-bg: #d9d9d9;
+        --rs-avatar-text: #fff;
+        --rs-badge-bg: #f44336;
+        --rs-badge-text: #fff;
+        --rs-tag-bg: #f7f7fa;
+        --rs-tag-close: #f44336;
+        --rs-carousel-bg: #8e8e93;
+        --rs-carousel-indicator: hsla(0, 0%, 100%, 0.4);
+        --rs-carousel-indicator-hover: #fff;
+        --rs-carousel-indicator-active: #3498ff;
+        --rs-panel-shadow:
+          0 4px 4px rgba(0, 0, 0, 0.12), 0 0 10px rgba(0, 0, 0, 0.06);
+        --rs-list-bg: #fff;
+        --rs-list-border: #e5e5ea;
+        --rs-list-hover-bg: #f2faff;
+        --rs-list-placeholder-bg: rgba(242, 250, 255, 0.5);
+        --rs-list-placeholder-border: #3498ff;
+        --rs-timeline-indicator-bg: #d9d9d9;
+        --rs-timeline-indicator-active-bg: #3498ff;
+        --rs-table-shadow: rgba(9, 9, 9, 0.08);
+        --rs-table-sort: #3498ff;
+        --rs-table-resize: #3498ff;
+        --rs-table-scrollbar-track: #e5e5ea;
+        --rs-table-scrollbar-thumb: #575757;
+        --rs-table-scrollbar-thumb-active: #272c36;
+        --rs-table-scrollbar-vertical-track: rgba(229, 229, 234, 0.4);
+        --rs-drawer-shadow:
+          0 4px 4px rgba(0, 0, 0, 0.12), 0 0 10px rgba(0, 0, 0, 0.06);
+        --rs-modal-shadow:
+          0 4px 4px rgba(0, 0, 0, 0.12), 0 0 10px rgba(0, 0, 0, 0.06);
+        --rs-form-errormessage-text: #f44336;
+        --rs-form-errormessage-bg: #fff;
+        --rs-form-errormessage-border: #e5e5ea;
+        --rs-picker-value: #1675e0;
+        --rs-picker-count-bg: #3498ff;
+        --rs-picker-count-text: #fff;
+        --rs-calendar-today-bg: #3498ff;
+        --rs-calendar-today-text: #fff;
+        --rs-calendar-range-bg: rgba(204, 233, 255, 0.5);
+        --rs-calendar-time-unit-bg: #f7f7fa;
+        --rs-calendar-date-selected-text: #fff;
+        --rs-popover-shadow: 0 1px 8px rgba(0, 0, 0, 0.12);
+      }
+      *,
+      :after,
+      :before {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin: 0;
+      }
+      a {
+        background-color: initial;
+      }
+      a:active,
+      a:hover {
+        outline: 0;
+      }
+      img {
+        border: 0;
+      }
+      svg:not(:root) {
+        overflow: hidden;
+      }
+      button {
+        color: inherit;
+        font: inherit;
+        margin: 0;
+      }
+      button {
+        border-radius: 0;
+        overflow: visible;
+      }
+      button {
+        text-transform: none;
+      }
+      button {
+        -webkit-appearance: button;
+        cursor: pointer;
+      }
+      button {
+        border-width: 0;
+      }
+      button {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+      }
+      html {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+      body {
+        background-color: #fff;
+        background-color: var(--rs-body);
+        color: #575757;
+        color: var(--rs-text-primary);
+        font-family:
+          Apple-System,
+          Arial,
+          Helvetica,
+          PingFang SC,
+          Hiragino Sans GB,
+          Microsoft YaHei,
+          STXihei,
+          sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+      }
+      a {
+        color: #1675e0;
+        color: var(--rs-text-link);
+        text-decoration: none;
+      }
+      a:focus,
+      a:hover {
+        color: #0a5dc2;
+        color: var(--rs-text-link-hover);
+      }
+      a:active,
+      a:focus,
+      a:hover {
+        text-decoration: underline;
+      }
+      a:active {
+        color: #004299;
+        color: var(--rs-text-link-active);
+      }
+      img {
+        vertical-align: middle;
+      }
+      :root {
+        --white-color: #fff;
+      }
+      .md body {
+        --lighter-version-bg: #f2f4f7;
+        --lv-video-bg: #fff;
+        --video-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        --dark-text-color: #000;
+        --selected-game-theme: #52d095;
+        --left-side-bar: #f8f8f8;
+        --lv-accordian-bg: linear-gradient(180deg, #fff, #fff);
+        --lv-accordian-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+        --lv-market-bg: #f2f4f7;
+        --toggle-bg: #52d095;
+        --dragon-tiger-bg: #000;
+        --dragon-tiger-accordian-bg: #292d32;
+        --dragon-tiger-market-bg: #4d555e;
+        --dragon-tiger-toggle-bg: #52d095;
+        --dragon-tiger-video-bg: #42464c;
+        --seven-up-down-bg: #181e22;
+        --seven-up-down-accordian-bg: linear-gradient(
+          180deg,
+          #36415d,
+          #36415d 21.58%
+        );
+        --seven-up-down-market-bg: #495677;
+        --seven-up-down-toggle-bg: #d4ff48;
+        --seven-up-down-video-bg: #36415d;
+        --andar-bahar-bg: #011e3d;
+        --andar-bahar-accordian-bg: linear-gradient(
+          180deg,
+          #0d2c4d,
+          #274667 21.58%
+        );
+        --andar-bahar-market-bg: #295c94;
+        --andar-bahar-toggle-bg: #01c8ff;
+        --andar-bahar-video-bg: #244262;
+        --roulette-bg: #320418;
+        --roulette-accordian-bg: linear-gradient(
+          180deg,
+          #390018,
+          #530927 21.58%
+        );
+        --roulette-market-bg: #78153f;
+        --roulette-toggle-bg: #ffd19a;
+        --roulette-video-bg: #520827;
+        --sicbo-bg: #051a36;
+        --sicbo-accordian-bg: linear-gradient(180deg, #3f7ab0, #0d2e5b 21.58%);
+        --sicbo-market-bg: #1a457a;
+        --sicbo-toggle-bg: #a5d935;
+        --sicbo-video-bg: #0b3a65;
+        --teenpatti-bg: #302b47;
+        --teenpatti-accordian-bg: linear-gradient(
+          180deg,
+          #504390,
+          #453885 21.58%
+        );
+        --teenpatti-market-bg: #5343a3;
+        --teenpatti-toggle-bg: #d4b239;
+        --teenpatti-video-bg: #443884;
+        --casino-holdem-bg: #101c3c;
+        --casino-holdem-accordian-bg: #1c2755;
+        --casino-holdem-market-bg: #283467;
+        --casino-holdem-toggle-bg: linear-gradient(
+          180deg,
+          #a932fb 16.15%,
+          #6100ff
+        );
+        --casino-holdem-video-bg: #1c2754;
+        --cricket-war-bg: #292d32;
+        --cricket-war-accordian-bg: #4f565f;
+        --cricket-war-market-bg: #6f7781;
+        --cricket-war-toggle-bg: #a9dfd8;
+        --amar-akbar-bg: #1b1f3a;
+        --amar-akbar-accordian-bg: linear-gradient(
+          180deg,
+          #343a5c,
+          #2e3657 42.71%
+        );
+        --amar-akbar-market-bg: #1b1f3a;
+        --amar-akbar-toggle-bg: linear-gradient(
+          180deg,
+          #ec3b54 16.15%,
+          #fb7525
+        );
+        --amar-akbar-video-bg: #2e3657;
+        --bacarat-bg: #0e0302;
+        --bacarat-accordian-bg: #2d1f1f;
+        --bacarat-market-bg: #3c3334;
+        --bacarat-toggle-bg: #f9c8a6;
+        --three-card-judgement-bg: #333136;
+        --three-card-judgement-accordian-bg: #4c4743;
+        --three-card-judgement-market-bg: #746b64;
+        --three-card-toggle-bg: #fffa80;
+        --worli-matka-bg: #27282c;
+        --worli-matka-accordian-bg: linear-gradient(
+          180deg,
+          #3f4e60,
+          #484f57 21.58%
+        );
+        --worli-matka-market-bg: #344745;
+        --worli-matka-toggle-bg: linear-gradient(180deg, #ff7244, #e94714);
+        --worli-matka-video-bg: #484f58;
+        --bollywood-table-bg: #000;
+        --bollywood-table-accordian-bg: #3c3c3c;
+        --bollywood-table-market-bg: #242424;
+        --bollywood-table-toggle-bg: #fe752f;
+        --hi-low-bg: #15304d;
+        --hi-low-accordian-bg: #2b5981;
+        --hi-low-market-bg: #15304d;
+        --hi-low-toggle-bg: #d4ff48;
+        --cricket20-20-bg: #083c4e;
+        --cricket20-20-accordian-bg: #195a70;
+        --cricket20-20-market-bg: #4496b1;
+        --cricket20-20-toggle-bg: #01c9c3;
+        --lottery-bg: #142535;
+        --lottery-accordian-bg: linear-gradient(
+          180deg,
+          #223950 21.58%,
+          #374d59
+        );
+        --lottery-market-bg: #142535;
+        --lottery-toggle-bg: linear-gradient(180deg, #65d1a2, #9beb96);
+        --lottery-toggle-video-bg: #374c59;
+        --thirty2-cards-bg: #181818;
+        --thirty2-cards-accordian-bg: #3c3b3b;
+        --thirty2-cards-market-bg: #595959;
+        --thirty2-cards-toggle-bg: #eaa89b;
+        --twenty-twenty-cricket-bg: #1a2118;
+        --twenty-twenty-cricket-accordian-bg: linear-gradient(
+          180deg,
+          #2e372b,
+          #393e37 21.58%
+        );
+        --twenty-twenty-cricket-market-bg: #4e524c;
+        --twenty-twenty-cricket-toggle-bg: #ffc700;
+        --twenty-twenty-cricket-video-bg: #393e37;
+        --Casino-war-bg: #05144b;
+        --Casino-war-accordian-bg: #113184;
+        --Casino-war-market-bg: #315ab7;
+        --Casino-war-toggle-bg: #fffa80;
+      }
+      :root {
+        --toastify-color-light: #fff;
+        --toastify-color-dark: #121212;
+        --toastify-color-info: #3498db;
+        --toastify-color-success: #07bc0c;
+        --toastify-color-warning: #f1c40f;
+        --toastify-color-error: #e74c3c;
+        --toastify-color-transparent: hsla(0, 0%, 100%, 0.7);
+        --toastify-icon-color-info: var(--toastify-color-info);
+        --toastify-icon-color-success: var(--toastify-color-success);
+        --toastify-icon-color-warning: var(--toastify-color-warning);
+        --toastify-icon-color-error: var(--toastify-color-error);
+        --toastify-toast-width: 320px;
+        --toastify-toast-background: #fff;
+        --toastify-toast-min-height: 64px;
+        --toastify-toast-max-height: 800px;
+        --toastify-font-family: sans-serif;
+        --toastify-z-index: 9999;
+        --toastify-text-color-light: #757575;
+        --toastify-text-color-dark: #fff;
+        --toastify-text-color-info: #fff;
+        --toastify-text-color-success: #fff;
+        --toastify-text-color-warning: #fff;
+        --toastify-text-color-error: #fff;
+        --toastify-spinner-color: #616161;
+        --toastify-spinner-color-empty-area: #e0e0e0;
+        --toastify-color-progress-light: linear-gradient(
+          90deg,
+          #4cd964,
+          #5ac8fa,
+          #007aff,
+          #34aadc,
+          #5856d6,
+          #ff2d55
+        );
+        --toastify-color-progress-dark: #bb86fc;
+        --toastify-color-progress-info: var(--toastify-color-info);
+        --toastify-color-progress-success: var(--toastify-color-success);
+        --toastify-color-progress-warning: var(--toastify-color-warning);
+        --toastify-color-progress-error: var(--toastify-color-error);
+      }
+      @media screen and (max-width: 720px) {
+        .MuiCircularProgress-root {
+          width: 70px !important;
+        }
+      }
+      .l-if-m-ctn {
+        display: none;
+      }
+      @media screen and (max-width: 720px) {
+        .l-if-m-ctn {
+          -ms-overflow-style: none;
+          background-color: var(--black-color);
+          border: 1px solid rgba(207, 141, 46, 0.35);
+          border-radius: 6px;
+          bottom: 0;
+          display: block;
+          height: 245px;
+          scrollbar-width: none;
+          width: 100%;
+        }
+        .l-if-m-ctn .container {
+          background-color: initial;
+          background-image: url(https://minigame.royaladmin.live/static/media/lobby-bg.cad1d377043747f4f136.png);
+          background-position: 50%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+        }
+        .l-if-m-ctn .container::-webkit-scrollbar {
+          display: none;
+        }
+        .l-if-m-ctn .container .header {
+          background: transparent;
+          color: var(--white-color);
+          font-size: 12px;
+          height: 20px;
+          margin-bottom: 10px;
+          padding-left: 10px;
+          padding-top: 8px;
+          position: relative;
+          width: 100%;
+        }
+        .l-if-m-ctn .container .header,
+        .l-if-m-ctn .container .header .lobby-image {
+          display: flex;
+          flex-direction: row;
+          font-family: Montserrat-SemiBold;
+          justify-content: space-between;
+        }
+        .l-if-m-ctn .container .header .lobby-image {
+          align-items: center;
+          background-image: url(https://minigame.royaladmin.live/static/media/lobby-image.3150a00843e765f3cc0b.svg);
+          background-position: 50%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+          padding: 0 6% 0 3%;
+          position: absolute;
+          width: 29%;
+        }
+        .l-if-m-ctn .container .header .lobby-image .lobby-text {
+          position: relative;
+        }
+        .l-if-m-ctn .mini-lobby-ctn {
+          background: transparent;
+          height: 100%;
+          padding-left: 10px;
+          width: 100%;
+        }
+        .l-if-m-ctn .mini-lobby-ctn .lobby-wrapper {
+          border-radius: 10px;
+          bottom: 22px;
+          display: flex;
+          flex-wrap: nowrap;
+          overflow: hidden;
+          padding-bottom: 4px;
+          padding-top: 4px;
+          position: absolute;
+          width: 100%;
+        }
+        .l-if-m-ctn .mini-lobby-ctn .lobby-wrapper .card-wrapper {
+          height: -webkit-fit-content;
+          height: -moz-fit-content;
+          height: fit-content;
+          margin-right: 20px;
+          width: 100%;
+        }
+        .l-if-m-ctn
+          .mini-lobby-ctn
+          .lobby-wrapper
+          .card-wrapper
+          .MuiTabs-flexContainer {
+          gap: 8px;
+        }
+        .l-if-m-ctn .mini-lobby-ctn .lobby-wrapper .card-wrapper .game-card {
+          background-image: linear-gradient(180deg, #10265a, #72117a);
+          background-position: 50%;
+          background-repeat: no-repeat;
+          background-size: auto;
+          border-radius: 6px;
+          height: -webkit-fit-content;
+          height: -moz-fit-content;
+          height: fit-content;
+          min-width: 135px;
+          outline: 1px solid #cf8d2e;
+          outline-offset: -1px;
+          padding: 5px;
+          position: relative;
+          width: auto;
+        }
+        .l-if-m-ctn
+          .mini-lobby-ctn
+          .lobby-wrapper
+          .card-wrapper
+          .game-card
+          .game-name-ctn {
+          align-items: center;
+          background-image: linear-gradient(180deg, #831ec5, #65228d);
+          background-position: 50%;
+          background-repeat: no-repeat;
+          background-size: auto;
+          border-radius: 2.6154px;
+          color: var(--white-color);
+          display: flex;
+          font-family: Montserrat-SemiBold;
+          font-size: 12px;
+          justify-content: space-evenly;
+          outline: 1.3077px solid #ffffff80;
+          outline-offset: -1px;
+          position: absolute;
+          right: 6%;
+          top: 6%;
+          width: 30%;
+        }
+        .l-if-m-ctn
+          .mini-lobby-ctn
+          .lobby-wrapper
+          .card-wrapper
+          .game-card
+          .game-name-ctn
+          .player-icon {
+          font-size: 12px;
+        }
+      }
+      /*! CSS Used from: Embedded */
+      .css-xuaqpw {
+        position: fixed;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        inset: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-tap-highlight-color: transparent;
+        color: rgb(255, 255, 255);
+        z-index: 1201;
+      }
+      .css-8yzpf7 {
+        display: inline-block;
+        animation: 1.4s linear 0s infinite normal none running animation-61bdi0;
+      }
+      .css-13o7eu2 {
+        display: block;
+      }
+      .css-14891ef {
+        stroke: currentcolor;
+        stroke-dasharray: 80px, 200px;
+        stroke-dashoffset: 0;
+        animation: 1.4s ease-in-out 0s infinite normal none running
+          animation-1p2h4ri;
+      }
+      .css-orq8zk {
+        overflow: hidden;
+        min-height: 48px;
+        display: flex;
+      }
+      @media (max-width: 599.95px) {
+        .css-orq8zk .MuiTabs-scrollButtons {
+          display: none;
+        }
+      }
+      .css-oqr85h {
+        overflow: auto hidden;
+        scrollbar-width: none;
+      }
+      .css-oqr85h::-webkit-scrollbar {
+        display: none;
+      }
+      .css-12qnib {
+        position: relative;
+        display: inline-block;
+        flex: 1 1 auto;
+        white-space: nowrap;
+        scrollbar-width: none;
+        overflow: auto hidden;
+      }
+      .css-12qnib::-webkit-scrollbar {
+        display: none;
+      }
+      .css-k008qs {
+        display: flex;
+      }
+      .css-ttwr4n {
+        position: absolute;
+        height: 2px;
+        bottom: 0px;
+        width: 100%;
+        transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-color: rgb(25, 118, 210);
+      }
+      .css-1ujsas3 {
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        background-color: transparent;
+        outline: 0px;
+        border: 0px;
+        margin: 0px;
+        cursor: pointer;
+        user-select: none;
+        vertical-align: middle;
+        appearance: none;
+        text-decoration: none;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.75;
+        letter-spacing: 0.02857em;
+        text-transform: uppercase;
+        min-width: 64px;
+        padding: 6px 8px;
+        border-radius: 4px;
+        transition:
+          background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+          box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+          border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+          color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        color: rgb(25, 118, 210);
+      }
+      @media print {
+        .css-1ujsas3 {
+          print-color-adjust: exact;
+        }
+      }
+      .css-1ujsas3:hover {
+        text-decoration: none;
+        background-color: rgba(25, 118, 210, 0.04);
+      }
+      @media (hover: none) {
+        .css-1ujsas3:hover {
+          background-color: transparent;
+        }
+      }
+      .css-vubbuv {
+        user-select: none;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        fill: currentcolor;
+        flex-shrink: 0;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1);
+        font-size: 1.5rem;
+      }
+      .css-1q0ig8p {
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        background-color: transparent;
+        outline: 0px;
+        border: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+        user-select: none;
+        vertical-align: middle;
+        appearance: none;
+        text-decoration: none;
+        color: inherit;
+        width: 40px;
+        flex-shrink: 0;
+        opacity: 0.8;
+      }
+      .css-1q0ig8p.Mui-disabled {
+        pointer-events: none;
+        cursor: default;
+      }
+      @media print {
+        .css-1q0ig8p {
+          print-color-adjust: exact;
+        }
+      }
+      .css-1q0ig8p.Mui-disabled {
+        opacity: 0;
+      }
+      .css-1k33q06 {
+        user-select: none;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        fill: currentcolor;
+        flex-shrink: 0;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1);
+        font-size: 1.25rem;
+      }
+      .css-w0pj6f {
+        overflow: hidden;
+        pointer-events: none;
+        position: absolute;
+        z-index: 0;
+        inset: 0px;
+        border-radius: inherit;
+      }
+      /*! CSS Used fontfaces */
+      @font-face {
+        font-family: Apple-System;
+        src: local(-apple-system), local(BlinkMacSystemFont), local(system-ui);
+      }
+      @font-face {
+        font-family: Montserrat-SemiBold;
+        src: url(https://minigame.royaladmin.live/static/media/Montserrat-SemiBold.27dfd575571f017cc9a7.ttf)
+          format("opentype");
+      }
+    </style>
+  </head>
+  <body class="dark">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

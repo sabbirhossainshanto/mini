@@ -1,0 +1,167 @@
+/*! CSS Used from: https://minigame.royaladmin.live/static/css/main.020786ef.css */
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+b {
+  font-weight: 700;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+p {
+  margin: 0;
+}
+@media screen and (max-width: 720px) {
+  .if-m-ctn .container .layout-layer .layout-wrapper .rules-model {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 1002;
+  }
+  .if-m-ctn
+    .container
+    .layout-layer
+    .layout-wrapper
+    .rules-model
+    .r-background {
+    background-color: #000;
+    height: 100%;
+    opacity: 60%;
+    position: relative;
+    width: 100%;
+    z-index: 20;
+  }
+}
+.min-rules-ctn {
+  z-index: 9999999 !important;
+}
+.middle-content {
+  height: 120px !important;
+  overflow: scroll !important;
+}
+.min-rules-ctn {
+  background: linear-gradient(180deg, #110a2f, #091e2e);
+  border: 1px solid #cf8d2e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 225px;
+  position: absolute;
+  width: 98%;
+  z-index: 1000;
+}
+.min-rules-ctn .top-content {
+  align-items: center;
+  border-bottom: 1px solid #cf8d2e;
+  display: flex;
+  flex-direction: row;
+  height: 41px;
+  justify-content: center;
+}
+.min-rules-ctn .top-content .rules-txt-ctn {
+  background-image: url(https://minigame.royaladmin.live/static/media/rules-trapezoid.d2ba72793c39b92a6b30.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white-color);
+  font-family: Montserrat-SemiBold;
+  height: 100%;
+  padding: 10px 0;
+  text-align: center;
+  width: 30%;
+}
+.min-rules-ctn .top-content .rules-txt-ctn .r-txt {
+  font-size: 12px;
+}
+.min-rules-ctn .top-content .game-name {
+  color: var(--white-color);
+  font-family: Montserrat-Bold;
+  font-size: 12px;
+  text-align: center;
+  width: 60%;
+}
+.min-rules-ctn .top-content .cls-icon-ctn {
+  background: linear-gradient(180deg, #861a20, #14012d);
+  border-left: 1px solid #cf8d2e;
+  border-top-right-radius: 10px;
+  height: 100%;
+  padding: 5px;
+  text-align: center;
+  width: 13%;
+}
+.min-rules-ctn .top-content .cls-icon-ctn .c-icon {
+  fill: #cf8d2e;
+  font-size: 22px;
+}
+.min-rules-ctn .rulestable {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.min-rules-ctn .rulesLeft {
+  border: 1px solid #cccccc42;
+  font-size: 9px;
+  padding: 5px;
+  text-align: left;
+  width: 25%;
+}
+.min-rules-ctn .ruletitle {
+  font-size: 10px;
+  margin: 8px;
+  text-align: left;
+}
+.min-rules-ctn .rulesRight {
+  border: 1px solid #cccccc42;
+  font-size: 9px;
+  padding: 5px;
+  text-align: left;
+  width: 74%;
+}
+.min-rules-ctn .middle-content {
+  align-items: center;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat-SemiBold;
+  font-size: 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  justify-content: space-between;
+  padding: 0 5px;
+  text-align: center;
+}
+/*! CSS Used from: Embedded */
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(https://minigame.royaladmin.live/static/media/Montserrat-SemiBold.27dfd575571f017cc9a7.ttf)
+    format("opentype");
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(https://minigame.royaladmin.live/static/media/Montserrat-Bold.68c8d686f4b0d91b92f1.ttf)
+    format("opentype");
+}
