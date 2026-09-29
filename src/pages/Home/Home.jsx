@@ -179,15 +179,13 @@ const Home = () => {
                         <span className="MuiTouchRipple-root css-w0pj6f" />
                       </button>
                       <button
+                        onClick={() => navigate("/casino/amar-akbar-anthony")}
                         className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root game-card css-1ujsas3"
                         tabIndex={0}
                         type="button"
                         value={4}
                       >
-                        <a
-                          className="nav-link"
-                          href="/casino/RGONLINE/UkdPTkxJTkU6VkdBMzEwMTpWVEdBMzEwMw=="
-                        >
+                        <a className="nav-link">
                           <img src="https://rg-assests.royaladmin.live/MiniGamesLobbyicons/AAA.png" />
                           <div className="game-name-ctn">
                             <svg
@@ -213,15 +211,13 @@ const Home = () => {
                         <span className="MuiTouchRipple-root css-w0pj6f" />
                       </button>
                       <button
+                        onClick={() => navigate("/casino/baccarat")}
                         className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root game-card css-1ujsas3"
                         tabIndex={0}
                         type="button"
                         value={5}
                       >
-                        <a
-                          className="nav-link"
-                          href="/casino/RGONLINE/UkdPTkxJTkU6VkdCQUMxMDE6VlRHQkFDMTAz"
-                        >
+                        <a className="nav-link">
                           <img src="https://rg-assests.royaladmin.live/MiniGamesLobbyicons/baccarat.png" />
                           <div className="game-name-ctn">
                             <svg
@@ -247,15 +243,13 @@ const Home = () => {
                         <span className="MuiTouchRipple-root css-w0pj6f" />
                       </button>
                       <button
+                        onClick={() => navigate("/casino/poker")}
                         className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root game-card css-1ujsas3"
                         tabIndex={0}
                         type="button"
                         value={6}
                       >
-                        <a
-                          className="nav-link"
-                          href="/casino/RGONLINE/UkdPTkxJTkU6VkdQT0sxMDE6VlRHUE9LMTAz"
-                        >
+                        <a className="nav-link">
                           <img src="https://rg-assests.royaladmin.live/MiniGamesLobbyicons/poker.png" />
                           <div className="game-name-ctn">
                             <svg
@@ -281,15 +275,13 @@ const Home = () => {
                         <span className="MuiTouchRipple-root css-w0pj6f" />
                       </button>
                       <button
+                        onClick={() => navigate("/casino/cricket-war")}
                         className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root game-card css-1ujsas3"
                         tabIndex={0}
                         type="button"
                         value={7}
                       >
-                        <a
-                          className="nav-link"
-                          href="/casino/RGONLINE/UkdPTkxJTkU6VkdDVzEwMTpWVEdDVzEwMw=="
-                        >
+                        <a className="nav-link">
                           <img src="https://rg-assests.royaladmin.live/MiniGamesLobbyicons/CricketWar.png" />
                           <div className="game-name-ctn">
                             <svg
@@ -315,15 +307,13 @@ const Home = () => {
                         <span className="MuiTouchRipple-root css-w0pj6f" />
                       </button>
                       <button
+                        onClick={() => navigate("/casino/teen-patti-muflis")}
                         className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root game-card css-1ujsas3"
                         tabIndex={0}
                         type="button"
                         value={8}
                       >
-                        <a
-                          className="nav-link"
-                          href="/casino/RGONLINE/UkdPTkxJTkU6VkdNVFAxMDE6VlRHTVRQMTAz"
-                        >
+                        <a className="nav-link">
                           <img src="https://rg-assests.royaladmin.live/MiniGamesLobbyicons/TeenpatiMuflis.png" />
                           <div className="game-name-ctn">
                             <svg
@@ -349,15 +339,13 @@ const Home = () => {
                         <span className="MuiTouchRipple-root css-w0pj6f" />
                       </button>
                       <button
+                        onClick={() => navigate("/casino/dragon-tiger-lion")}
                         className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root game-card css-1ujsas3"
                         tabIndex={0}
                         type="button"
                         value={9}
                       >
-                        <a
-                          className="nav-link"
-                          href="/casino/RGONLINE/UkdPTkxJTkU6VkdEVEwxMDE6VlRHRFRMMTAz"
-                        >
+                        <a className="nav-link">
                           <img src="https://rg-assests.royaladmin.live/MiniGamesLobbyicons/DragonTilerLion.png" />
                           <div className="game-name-ctn">
                             <svg
@@ -383,15 +371,13 @@ const Home = () => {
                         <span className="MuiTouchRipple-root css-w0pj6f" />
                       </button>
                       <button
+                        onClick={() => navigate("/casino/lucky-7")}
                         className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root game-card css-1ujsas3"
                         tabIndex={0}
                         type="button"
                         value={10}
                       >
-                        <a
-                          className="nav-link"
-                          href="/casino/RGONLINE/UkdPTkxJTkU6VkdMSzcxMDE6VlRHTEs3MTAz"
-                        >
+                        <a className="nav-link">
                           <img src="https://rg-assests.royaladmin.live/MiniGamesLobbyicons/lucky7.png" />
                           <div className="game-name-ctn">
                             <svg
@@ -417,15 +403,13 @@ const Home = () => {
                         <span className="MuiTouchRipple-root css-w0pj6f" />
                       </button>
                       <button
+                        onClick={() => navigate("/casino/foot-ball-studio")}
                         className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root game-card css-1ujsas3"
                         tabIndex={0}
                         type="button"
                         value={11}
                       >
-                        <a
-                          className="nav-link"
-                          href="/casino/RGONLINE/UkdPTkxJTkU6VkdGQlMxMDE6VlRHRkJTMTAz"
-                        >
+                        <a className="nav-link">
                           <img src="https://rg-assests.royaladmin.live/MiniGamesLobbyicons/FTS.png" />
                           <div className="game-name-ctn">
                             <svg
@@ -451,15 +435,13 @@ const Home = () => {
                         <span className="MuiTouchRipple-root css-w0pj6f" />
                       </button>
                       <button
+                        onClick={() => navigate("/casino/2-card-teen-patti")}
                         className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root game-card css-1ujsas3"
                         tabIndex={0}
                         type="button"
                         value={12}
                       >
-                        <a
-                          className="nav-link"
-                          href="/casino/RGONLINE/UkdPTkxJTkU6VkcyVFAxMDE6VlRHMlRQMTAz"
-                        >
+                        <a className="nav-link">
                           <img src="https://rg-assests.royaladmin.live/MiniGamesLobbyicons/TwoCardTeenpati.png" />
                           <div className="game-name-ctn">
                             <svg
@@ -485,15 +467,13 @@ const Home = () => {
                         <span className="MuiTouchRipple-root css-w0pj6f" />
                       </button>
                       <button
+                        onClick={() => navigate("/casino/akbar-romeo-walter")}
                         className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root game-card css-1ujsas3"
                         tabIndex={0}
                         type="button"
                         value={13}
                       >
-                        <a
-                          className="nav-link"
-                          href="/casino/RGONLINE/UkdPTkxJTkU6VkdBUlcxMDE6VlRHQVJXMTAz"
-                        >
+                        <a className="nav-link">
                           <img src="https://rg-assests.royaladmin.live/MiniGamesLobbyicons/ARW.png" />
                           <div className="game-name-ctn">
                             <svg

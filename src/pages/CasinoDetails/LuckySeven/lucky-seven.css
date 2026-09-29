@@ -1,0 +1,140 @@
+/*! CSS Used from: https://minigame.royaladmin.live/static/css/main.020786ef.css */
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+@media screen and (max-width: 720px) {
+  .if-m-ctn .container .dummy-bets-ctn {
+    height: 95%;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    z-index: 50;
+  }
+  .if-m-ctn .container .dummy-bets-ctn .chip-dummy-bets {
+    background-image: url(https://minigame.royaladmin.live/static/media/dummy-bet.4ce2318e3b95b9819bc3.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    z-index: 0;
+  }
+  .if-m-ctn .container .dummy-bets-ctn .chip-dummy-bets.pink-chip {
+    background-image: url(https://minigame.royaladmin.live/static/media/pink-chip.1385f9dc3d83ab7b1a46.svg);
+  }
+  .if-m-ctn .container .dummy-bets-ctn .dummy-bets {
+    display: inline-block;
+    height: 10px;
+    opacity: 1;
+    width: 10px;
+    z-index: 50;
+  }
+}
+.Mini-layout-three-odds-ctn {
+  align-items: center;
+  background: var(--layout-bg);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.Mini-layout-three-odds-ctn .dummy-bets-ctn {
+  height: -webkit-fit-content !important;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+  padding: 5px !important;
+  position: absolute !important;
+  width: 37% !important;
+  z-index: 0 !important;
+}
+.Mini-layout-three-odds-ctn .lt-o-l {
+  flex-direction: column;
+  padding: 0;
+}
+.Mini-layout-three-odds-ctn .lt-o-l,
+.Mini-layout-three-odds-ctn .lt-o-l .lt-odds-ctn {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  font-family: Montserrat-SemiBold;
+  font-size: 12px;
+  justify-content: center;
+  width: 100%;
+}
+.Mini-layout-three-odds-ctn .lt-o-l .lt-odds-ctn {
+  background: var(--match-odds-bg1);
+  color: var(--white-color);
+  flex-direction: row;
+  height: 100px;
+  outline: solid 1px var(--layout-border);
+  outline-offset: -1px;
+  text-transform: uppercase;
+}
+.Mini-layout-three-odds-ctn .lt-o-l .lt-odds-ctn .high-card,
+.Mini-layout-three-odds-ctn .lt-o-l .lt-odds-ctn .low-card {
+  width: 50% !important;
+}
+.Mini-layout-three-odds-ctn .lt-o-l .lt-odds-ctn .s-down-ctn,
+.Mini-layout-three-odds-ctn .lt-o-l .lt-odds-ctn .s-up-ctn {
+  height: 100%;
+  width: 33.33%;
+}
+.Mini-layout-three-odds-ctn .lt-o-l .lt-odds-ctn .s-down-ctn .s-o-img,
+.Mini-layout-three-odds-ctn .lt-o-l .lt-odds-ctn .s-up-ctn .s-o-img {
+  align-items: center;
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 1px double transparent;
+  display: flex;
+  flex-direction: column;
+  font-size: 9px;
+  height: 100%;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.Mini-layout-three-odds-ctn
+  .lt-o-l
+  .lt-odds-ctn
+  .s-up-ctn
+  .s-o-img
+  .lowcard
+  path {
+  fill: #39070e;
+}
+.Mini-layout-three-odds-ctn
+  .lt-o-l
+  .lt-odds-ctn
+  .s-down-ctn
+  .s-o-img
+  .highcard
+  path {
+  fill: #03173a;
+}
+.Mini-layout-three-odds-ctn .lt-o-l .lt-odds-ctn .s-up-ctn .s-o-img {
+  background-image: var(--mo-runner1-bgmini);
+  border-radius: 10px 0 0 10px;
+}
+.Mini-layout-three-odds-ctn .lt-o-l .lt-odds-ctn .s-down-ctn .s-o-img {
+  background-image: var(--mo-runner2-bgmini);
+  border-radius: 0 10px 10px 0;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(/src/assets/font/Montserrat-SemiBold.27dfd575571f017cc9a7.ttf)
+    format("opentype");
+}

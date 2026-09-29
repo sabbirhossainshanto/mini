@@ -1,0 +1,347 @@
+/*! CSS Used from: https://minigame.royaladmin.live/static/css/main.020786ef.css */
+img {
+  max-width: 100%;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+img {
+  vertical-align: middle;
+}
+@media screen and (max-width: 720px) {
+  .if-m-ctn .container .dummy-bets-ctn,
+  .if-m-ctn .container .dummy-bets-ctn-tie {
+    height: 95%;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    z-index: 50;
+  }
+  .if-m-ctn .container .dummy-bets-ctn .chip-dummy-bets,
+  .if-m-ctn .container .dummy-bets-ctn-tie .chip-dummy-bets {
+    background-image: url(https://minigame.royaladmin.live/static/media/dummy-bet.4ce2318e3b95b9819bc3.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    z-index: 0;
+  }
+  .if-m-ctn .container .dummy-bets-ctn .chip-dummy-bets.pink-chip,
+  .if-m-ctn .container .dummy-bets-ctn-tie .chip-dummy-bets.pink-chip {
+    background-image: url(https://minigame.royaladmin.live/static/media/pink-chip.1385f9dc3d83ab7b1a46.svg);
+  }
+  .if-m-ctn .container .dummy-bets-ctn .dummy-bets,
+  .if-m-ctn .container .dummy-bets-ctn-tie .dummy-bets {
+    display: inline-block;
+    height: 10px;
+    opacity: 1;
+    width: 10px;
+    z-index: 50;
+  }
+}
+.minibaccarat-odds-ctn {
+  align-items: center;
+  background: var(--layout-bg);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.minibaccarat-odds-ctn .tie {
+  height: -webkit-fit-content !important;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+  left: 15px !important;
+  position: absolute !important;
+  width: 50px !important;
+}
+.minibaccarat-odds-ctn .dummy-bets-ctn {
+  height: 90px !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 100px !important;
+  z-index: 999;
+}
+.minibaccarat-odds-ctn .dummy-bets-ctn-tie {
+  height: 50px !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 50px !important;
+  z-index: 999;
+}
+.minibaccarat-odds-ctn .Dresultcard .resultcards {
+  display: flex;
+  height: 33px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 30px;
+  width: 37%;
+  z-index: 999;
+}
+.minibaccarat-odds-ctn .Dresultcard .resultcards .cards {
+  display: flex;
+  height: 34%;
+  left: 10px;
+  position: absolute;
+  top: 54%;
+  -webkit-transform: rotateX(38deg);
+  transform: rotateX(38deg);
+  width: 115px;
+}
+.minibaccarat-odds-ctn .Dresultcard .resultcards .cards .player-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+.minibaccarat-odds-ctn
+  .Dresultcard
+  .resultcards
+  .cards
+  .player-section
+  .cards-area {
+  align-items: center;
+  display: flex;
+  height: 80%;
+  justify-content: center;
+  width: 100%;
+}
+.minibaccarat-odds-ctn
+  .Dresultcard
+  .resultcards
+  .cards
+  .player-section
+  .cards-area
+  .rotate {
+  -webkit-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
+}
+.minibaccarat-odds-ctn
+  .Dresultcard
+  .resultcards
+  .cards
+  .player-section
+  .cards-area
+  .card-2 {
+  margin-left: 10px !important;
+}
+.minibaccarat-odds-ctn
+  .Dresultcard
+  .resultcards
+  .cards
+  .player-section
+  .cards-area
+  .card-2,
+.minibaccarat-odds-ctn
+  .Dresultcard
+  .resultcards
+  .cards
+  .player-section
+  .cards-area
+  .card-3 {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: 0.6%;
+  width: 100%;
+}
+.minibaccarat-odds-ctn .Tresultcard .Bankerresultcards {
+  display: flex;
+  height: 33px;
+  justify-content: center;
+  position: absolute;
+  right: 5px;
+  top: 29px;
+  width: 37%;
+  z-index: 999;
+}
+.minibaccarat-odds-ctn .Tresultcard .Bankerresultcards .cards {
+  display: flex;
+  height: 34%;
+  position: absolute;
+  right: 3px;
+  top: 54%;
+  -webkit-transform: rotateX(38deg);
+  transform: rotateX(38deg);
+  width: 115px;
+}
+.minibaccarat-odds-ctn .Tresultcard .Bankerresultcards .cards .player-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 92%;
+}
+.minibaccarat-odds-ctn
+  .Tresultcard
+  .Bankerresultcards
+  .cards
+  .player-section
+  .cards-area {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+.minibaccarat-odds-ctn
+  .Tresultcard
+  .Bankerresultcards
+  .cards
+  .player-section
+  .cards-area
+  .rotatebanker {
+  -webkit-transform: rotate(90deg) !important;
+  transform: rotate(90deg) !important;
+}
+.minibaccarat-odds-ctn
+  .Tresultcard
+  .Bankerresultcards
+  .cards
+  .player-section
+  .cards-area
+  .card-2 {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: 0.6%;
+  width: 100%;
+}
+.minibaccarat-odds-ctn .b-o-l {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn {
+  align-items: center;
+  background: var(--match-odds-bg1);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  font-family: Montserrat-SemiBold;
+  font-size: 12px;
+  height: 100px;
+  justify-content: center;
+  outline: solid 1px var(--layout-border);
+  outline-offset: -1px;
+  position: relative;
+  width: 100%;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .tie-bg {
+  align-items: center;
+  background-clip: padding-box, border-box;
+  background-image: var(--tie-bg1mini);
+  background-origin: border-box;
+  border: 1px double transparent;
+  border-radius: 100%;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80px;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .d-bg,
+.minibaccarat-odds-ctn .dt-bg-ctn .t-bg {
+  height: 100%;
+  width: 50%;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .d-bg {
+  background-clip: padding-box, border-box;
+  background-image: var(--mo-runner1-bgmini);
+  background-origin: border-box;
+  border: 1px double transparent;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .t-bg {
+  background-clip: padding-box, border-box;
+  background-image: var(--mo-runner2-bgmini);
+  background-origin: border-box;
+  border: 1px double transparent;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .t-bg .t-o-img .bet-area {
+  justify-content: flex-end;
+  text-align: end;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .d-o-img,
+.minibaccarat-odds-ctn .dt-bg-ctn .t-o-img {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .d-o-img .bet-area,
+.minibaccarat-odds-ctn .dt-bg-ctn .t-o-img .bet-area {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .d-o-img .runner-odds,
+.minibaccarat-odds-ctn .dt-bg-ctn .t-o-img .runner-odds {
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  font-size: 10px !important;
+  height: 100%;
+  justify-content: space-between;
+  text-transform: uppercase;
+  width: 40%;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .d-o-img .runner-odds .runnerspan {
+  margin-top: 50px !important;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .d-o-img .d-img,
+.minibaccarat-odds-ctn .dt-bg-ctn .t-o-img .t-img {
+  width: 33%;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .d-o-img .runner-odds {
+  padding: 8px 0 8px 20px;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .d-o-img .d-img path {
+  fill: #39070e;
+}
+.minibaccarat-odds-ctn .dt-bg-ctn .t-o-img .runner-odds {
+  padding: 8px 20px 8px 0;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(/src/assets/font/Montserrat-SemiBold.27dfd575571f017cc9a7.ttf)
+    format("opentype");
+}

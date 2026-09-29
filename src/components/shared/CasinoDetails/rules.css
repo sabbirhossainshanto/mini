@@ -157,11 +157,11 @@ p {
 /*! CSS Used fontfaces */
 @font-face {
   font-family: Montserrat-SemiBold;
-  src: url(https://minigame.royaladmin.live/static/media/Montserrat-SemiBold.27dfd575571f017cc9a7.ttf)
+  src: url(/src/assets/font/Montserrat-SemiBold.27dfd575571f017cc9a7.ttf)
     format("opentype");
 }
 @font-face {
   font-family: Montserrat-Bold;
-  src: url(https://minigame.royaladmin.live/static/media/Montserrat-Bold.68c8d686f4b0d91b92f1.ttf)
+  src: url(/src/assets/font/Montserrat-Bold.68c8d686f4b0d91b92f1.ttf)
     format("opentype");
 }

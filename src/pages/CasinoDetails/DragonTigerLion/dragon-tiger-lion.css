@@ -1,0 +1,175 @@
+/*! CSS Used from: https://minigame.royaladmin.live/static/css/main.020786ef.css */
+img {
+  max-width: 100%;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  border: 0;
+}
+img {
+  vertical-align: middle;
+}
+@media screen and (max-width: 720px) {
+  .if-m-ctn .container .dummy-bets-ctn {
+    height: 95%;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    z-index: 50;
+  }
+  .if-m-ctn .container .dummy-bets-ctn .dummy-bets {
+    display: inline-block;
+    height: 10px;
+    opacity: 1;
+    width: 10px;
+    z-index: 50;
+  }
+}
+.dt-o-l {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat-SemiBold;
+  font-size: 12px;
+  justify-content: center;
+  width: 100%;
+}
+.dt-o-l .dummy-bets-ctn {
+  height: 90px !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 100px !important;
+  z-index: 999;
+}
+.Mini-dragon-tiger-lion-odds-ctn {
+  align-items: center;
+  background: var(--layout-bg);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.Mini-dragon-tiger-lion-odds-ctn .resultcards {
+  display: flex;
+  height: 33px;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  width: 45%;
+  z-index: 999;
+}
+.Mini-dragon-tiger-lion-odds-ctn .resultcards .playerACards {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 5%;
+  -webkit-transform: rotateX(38deg);
+  transform: rotateX(38deg);
+  width: 100%;
+}
+.Mini-dragon-tiger-lion-odds-ctn .resultcards .playerACards .cards-section {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  height: 75%;
+  justify-content: center;
+  width: 100%;
+}
+.Mini-dragon-tiger-lion-odds-ctn
+  .resultcards
+  .playerACards
+  .cards-section
+  .card-1 {
+  align-items: center;
+  border-radius: 10% 5% 10% 5%;
+  display: flex;
+  height: 55px;
+  justify-content: center;
+  margin: 2%;
+  width: 35px;
+}
+.Mini-dragon-tiger-lion-odds-ctn .dummy-bets-ctn {
+  position: absolute !important;
+}
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn {
+  align-items: center;
+  background: var(--match-odds-bg1);
+  border-radius: 6px;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: row;
+  font-family: Montserrat-SemiBold;
+  font-size: 12px;
+  height: 100px;
+  justify-content: center;
+  outline: solid 1px var(--layout-border);
+  outline-offset: -1px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-down-ctn,
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-s-ctn,
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-up-ctn {
+  height: 100%;
+  width: 33.33%;
+}
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-down-ctn .s-o-img,
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-s-ctn .s-o-img,
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-up-ctn .s-o-img {
+  align-items: center;
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 1px double transparent;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 5px 0;
+  width: 100%;
+}
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-down-ctn .s-o-img .dtl-img,
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-s-ctn .s-o-img .dtl-img,
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-up-ctn .s-o-img .dtl-img {
+  height: 60px;
+}
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-up-ctn .s-o-img {
+  background-image: var(--mo-runner1-bgmini);
+  border-radius: 10px 0 0 10px;
+}
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-s-ctn .s-o-img {
+  background-image: var(--tie-bg1mini);
+}
+.Mini-dragon-tiger-lion-odds-ctn .lt-odds-ctn .s-down-ctn .s-o-img {
+  background-image: var(--mo-runner2-bgmini);
+  border-radius: 0 10px 10px 0;
+}
+.Mini-dragon-tiger-lion-odds-ctn .dt-o-l {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat-SemiBold;
+  font-size: 12px;
+  justify-content: center;
+  padding: 1% 0;
+  width: 100%;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(/src/assets/font/Montserrat-SemiBold.27dfd575571f017cc9a7.ttf)
+    format("opentype");
+}

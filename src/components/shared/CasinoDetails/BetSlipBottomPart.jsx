@@ -2,31 +2,37 @@ import { Fragment, useState } from "react";
 import StakeModal from "./StakeModal";
 import Rules from "./Rules";
 import BetHistory from "./BetHistory";
+import ResultCard from "./ResultCard";
 
 const BetSlipBottomPart = () => {
   const [rules, setRules] = useState(false);
   const [betHistory, setBetHistory] = useState(false);
   const [showStakeModal, setShowStakeModal] = useState(false);
+  const [showResultCard, setShowResultCard] = useState(false);
   return (
     <Fragment>
       {showStakeModal && <StakeModal />}
       {rules && <Rules setRules={setRules} />}
       {betHistory && <BetHistory setBetHistory={setBetHistory} />}
+      {showResultCard && <ResultCard setShowResultCard={setShowResultCard} />}
       <div className="bottom-ctn">
         <div className="results-ctn">
           <button
+            onClick={() => setShowResultCard(true)}
             className="video-button border-gradient-btn border-gradient-purple-btn
   "
           >
             B
           </button>
           <button
+            onClick={() => setShowResultCard(true)}
             className="video-button border-gradient-btn border-gradient-purple-btn
   "
           >
             A
           </button>
           <button
+            onClick={() => setShowResultCard(true)}
             className="video-button border-gradient-btn border-gradient-purple-btn
   "
           >

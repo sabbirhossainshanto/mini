@@ -1,6 +1,6 @@
+import BetSlipBottomPart from "../../../components/shared/CasinoDetails/BetSlipBottomPart";
 import BetSlipTopPart from "../../../components/shared/CasinoDetails/BetSlipTopPart";
 import Header from "../../../components/shared/CasinoDetails/Header";
-import StakeModal from "../../../components/shared/CasinoDetails/StakeModal";
 import "./dragon-tiger.css";
 const DragonTiger = () => {
   return (
@@ -167,55 +167,7 @@ const DragonTiger = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="bottom-ctn">
-                    <div className="results-ctn">
-                      <button
-                        className="video-button border-gradient-btn border-gradient-purple-btn
-        "
-                      >
-                        T
-                      </button>
-                      <button
-                        className="video-button border-gradient-btn border-gradient-purple-btn
-        "
-                      >
-                        T
-                      </button>
-                      <button
-                        className="video-button border-gradient-btn border-gradient-purple-btn
-        "
-                      >
-                        T
-                      </button>
-                    </div>
-                    <div className="current__chip-bg">
-                      <div className="current__chip ">
-                        <img
-                          src="/src/assets/images/red-chip.f94529bb3fc703696a0a6157cffd3eb6.svg"
-                          alt=""
-                        />
-                        <span className="cdChipSpan">100</span>
-                      </div>
-                    </div>
-                    <div className="w-46" />
-                    <div className="rules-hist-ctn">
-                      <img
-                        className="u-img"
-                        src="/src/assets/images/undo.c7023ef928c006460f00cbb70745022c.svg"
-                        alt=""
-                      />
-                      <img
-                        className="p-img"
-                        src="/src/assets/images/rules-icon.14ce6aa68b03f36ae119e62a4d76d895.svg"
-                        alt=""
-                      />
-                      <img
-                        src="/src/assets/images/history.18932c5dd760933f954383d8df61b79e.svg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <StakeModal />
+                  <BetSlipBottomPart />
                 </div>
               </div>
             </div>

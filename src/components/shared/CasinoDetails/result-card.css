@@ -1,0 +1,243 @@
+/*! CSS Used from: https://minigame.royaladmin.live/static/css/main.020786ef.css */
+img {
+  max-width: 100%;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  border: 0;
+}
+[tabindex="-1"] {
+  outline: none;
+}
+img {
+  vertical-align: middle;
+}
+.MuiModal-root .MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.teenpatti {
+  background-image: none !important;
+}
+.teenpatti .MuiPaper-root {
+  border-radius: 10px;
+  min-height: 210px;
+  min-width: 300px;
+}
+@media (max-width: 720px) {
+  .teenpatti {
+    background-image: none !important;
+  }
+  .teenpatti .MuiPaper-root {
+    border-radius: 5.33px;
+    min-height: 20vh;
+    min-width: 50vw;
+  }
+}
+.teenpatti-winner-card {
+  border-radius: 4.31472px;
+  box-shadow: 0 1.07868px 7.33503px rgba(0, 0, 0, 0.1);
+  height: 80%;
+  width: 25%;
+}
+@media (max-width: 720px) {
+  .teenpatti-winner-card {
+    border-radius: 0.94px;
+  }
+}
+.tp-popover {
+  display: flex;
+  flex-direction: column;
+  height: 210px;
+  padding: 15px 15px 0;
+  width: 100%;
+}
+.tp-popover .result-div {
+  background-color: hsla(0, 0%, 85%, 0.5);
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+  padding: 10px;
+  width: 100%;
+}
+.tp-popover .result-div .title-div {
+  align-items: flex-start;
+  color: #202020;
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat-Bold;
+  height: 100%;
+  justify-content: center;
+  width: 20%;
+}
+.tp-popover .result-div .cards-div {
+  background: linear-gradient(180deg, #464646, #0f0f0f);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 0 10px;
+  width: 80%;
+}
+.tp-popover .result-div .cards-div .player-cards {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.tp-popover .result-div .cards-div .cards {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 75%;
+  justify-content: space-evenly;
+}
+.tp-popover .result-div .cards-div .winner-div {
+  align-items: center;
+  background-image: url(https://rg-assests.royaladmin.live/common/winner2-bg.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-family: Montserrat-ExtraBold;
+  font-size: 12px;
+  height: 15%;
+  justify-content: center;
+}
+.tp-popover .result-div .cards-div .empty-div {
+  height: 15%;
+}
+.tp-popover .result-div .cards-div .caption {
+  color: #fff;
+  font-family: Montserrat-ExtraBold;
+  font-size: 13px;
+  height: 15%;
+  text-align: center;
+}
+.tp-popover .round-id {
+  align-items: center;
+  color: #2f2f2f;
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat-Regular;
+  height: 20%;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 720px) {
+  .tp-popover {
+    height: 150px;
+  }
+  .tp-popover .result-div .title-div {
+    justify-content: flex-start;
+  }
+  .tp-popover .result-div .title-div .title {
+    font-size: 10px;
+  }
+  .tp-popover .result-div .title-div .flag-icon {
+    height: 15%;
+  }
+  .tp-popover .result-div .cards-div .caption,
+  .tp-popover .result-div .cards-div .winner-div {
+    font-size: 8px;
+  }
+  .tp-popover .round-id {
+    font-size: 10px;
+  }
+}
+.teenpatti {
+  font-family: Montserrat-Medium;
+  font-size: 10px;
+}
+@media screen and (max-width: 720px) {
+  .MuiPaper-root {
+    align-items: center;
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+}
+.tp-popover {
+  height: 150px !important;
+}
+.result-div {
+  background-color: initial !important;
+}
+.tp-popover {
+  background-image: url(https://minigame.royaladmin.live/static/media/7UD-mini-bg.93c121b80d8b7e3efbbe.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid #8f5f1b;
+}
+.tp-popover .round-id,
+.tp-popover .title {
+  color: #fff !important;
+}
+/*! CSS Used from: Embedded */
+.css-jp7szo {
+  position: fixed;
+  z-index: 1300;
+  inset: 0px;
+}
+.css-esi9ax {
+  position: fixed;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  inset: 0px;
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  z-index: -1;
+}
+.css-1dmzujt {
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  box-shadow:
+    rgba(0, 0, 0, 0.2) 0px 5px 5px -3px,
+    rgba(0, 0, 0, 0.14) 0px 8px 10px 1px,
+    rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  position: absolute;
+  overflow: hidden auto;
+  min-width: 16px;
+  min-height: 16px;
+  max-width: calc(100% - 32px);
+  max-height: calc(100% - 32px);
+  outline: 0px;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(/src/assets/font/Montserrat-Bold.68c8d686f4b0d91b92f1.ttf)
+    format("opentype");
+}
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url(/src/assets/font/Montserrat-ExtraBold.e3d5ae4a7508582d9620.ttf)
+    format("opentype");
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(/src/assets/font/Montserrat-Regular.7c8ccfe4b8a1b8ea2327.ttf)
+    format("opentype");
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(/src/assets/font/Montserrat-Medium.598141984583bec97122.ttf)
+    format("opentype");
+}

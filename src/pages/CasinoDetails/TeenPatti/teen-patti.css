@@ -1707,16 +1707,16 @@ img {
 }
 @font-face {
   font-family: Montserrat-ExtraBold;
-  src: url(https://minigame.royaladmin.live/static/media/Montserrat-ExtraBold.e3d5ae4a7508582d9620.ttf)
+  src: url(/src/assets/font/Montserrat-ExtraBold.e3d5ae4a7508582d9620.ttf)
     format("opentype");
 }
 @font-face {
   font-family: Montserrat-SemiBold;
-  src: url(https://minigame.royaladmin.live/static/media/Montserrat-SemiBold.27dfd575571f017cc9a7.ttf)
+  src: url(/src/assets/font/Montserrat-SemiBold.27dfd575571f017cc9a7.ttf)
     format("opentype");
 }
 @font-face {
   font-family: BebasNeue-Bold;
-  src: url(https://minigame.royaladmin.live/static/media/BebasNeue-Bold.0fff693ee8f49e3b60f2.ttf)
+  src: url(/src/assets/font/BebasNeue-Bold.0fff693ee8f49e3b60f2.ttf)
     format("opentype");
 }

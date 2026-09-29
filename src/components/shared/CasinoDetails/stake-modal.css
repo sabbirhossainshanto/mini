@@ -128,6 +128,6 @@ img {
 /*! CSS Used fontfaces */
 @font-face {
   font-family: BebasNeue-Bold;
-  src: url(https://minigame.royaladmin.live/static/media/BebasNeue-Bold.0fff693ee8f49e3b60f2.ttf)
+  src: url(/src/assets/font/BebasNeue-Bold.0fff693ee8f49e3b60f2.ttf)
     format("opentype");
 }
